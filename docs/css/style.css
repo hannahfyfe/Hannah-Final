@@ -1,3 +1,8 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
 h1 {
     text-align: center;
 }
@@ -10,3 +15,30 @@ img {
     border: 2px solid black;
 }
 
+.main-menu {
+    padding: 20px;
+    text-align: center;    
+}
+
+
+.menu-item {
+    display: block;
+    width: max-content;
+    margin: 10px auto;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition-duration: .5s;
+    font-size: 20px;
+}
+
+.menu-item:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+}
+
+.about-image {
+    width: 80vw;
+    max-width: 600px;
+}
